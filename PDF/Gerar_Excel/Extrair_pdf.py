@@ -14,7 +14,7 @@ from pdferli import get_pdfdf
 from PrettyColorPrinter import add_printer
 from pathlib import Path
 import pandas as pd
-import tabula #Manipulação de Tabelas 
+#import tabula #Manipulação de Tabelas 
 import time #Tempo de execução
 import numpy as np
 
