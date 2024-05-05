@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: touchtouch
+Version: 0.11
+Summary: Creates a file (and folders if they don't exist) at the given path
+Home-page: https://github.com/hansalemaos/touchtouch
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: os,system,touch
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+
+# Creates a file (and folders if they don't exist) at the given path
+
+
+
+```python
+
+$pip install touchtouch
+
+from touchtouch import touch
+
+touch('f:\\dada\\baba\\caca\\myfile.html')
+
+
+
+# original: https://github.com/andrewp-as-is/touch.py (not working anymore)
+
+```

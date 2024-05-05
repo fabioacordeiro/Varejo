@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: disable-warnings
+Version: 0.10
+Summary: Disables all warnings
+Home-page: https://github.com/hansalemaos/disable_warnings
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: warnings,disable
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+
+<h2>Disables all warnings</h2>
+
+
+
+
+
+```python
+
+# Start your script with:
+
+from disable_warnings import *
+
+```
+
+
+
+
+
+
+
