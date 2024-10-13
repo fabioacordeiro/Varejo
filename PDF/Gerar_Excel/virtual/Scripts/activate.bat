@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\DESENVOLVIMENTO\VAREJO\PDF\Gerar_Excel\virtual
+set VIRTUAL_ENV=C:\Desenvolvimento\Varejo\PDF\Gerar_Excel\virtual
 
 if not defined PROMPT set PROMPT=$P$G
 

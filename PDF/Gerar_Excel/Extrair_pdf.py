@@ -65,10 +65,10 @@ try:
     #criando uma lista e colocando os valores diferentes de vazio dentro dela
     # do campo 'aa_size', somente o primeiro elemento
     togi=[]
-    for r in np.split(df,df.loc[df.aa_element_type == 'LTAnno'].index):
-        df2 = r.dropna(subset="aa_size")
+    for r in np.split(df,df.loc[df.aa_element_type == 'index'].index):
+        df2 = r.dropna(subset="index")
         if not df2.empty:
-            df3 = df2.sort_values(by='aa_x0')
+            df3 = df2.sort_values(by='index')
             togi.append(df3.iloc[:1].copy())
             
     print(f'--------- Imprimindo a lista togi --------')

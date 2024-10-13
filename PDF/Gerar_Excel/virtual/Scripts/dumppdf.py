@@ -1,4 +1,4 @@
-#!C:\DESENVOLVIMENTO\VAREJO\PDF\Gerar_Excel\virtual\Scripts\python.exe
+#!C:\Desenvolvimento\Varejo\PDF\Gerar_Excel\virtual\Scripts\python.exe
 """Extract pdf structure in XML format"""
 import logging
 import os.path
