@@ -10,17 +10,17 @@ import pandas as pd
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-
+from dotenv import load_dotenv
 # Defina o caminho do arquivo Excel
 excel_file = 'Cadastro_Fornecedores.xlsx'
 
 # Leia a planilha
 df = pd.read_excel(excel_file)
 
-# Defina o seu e-mail e senha (use um e-mail e senha de aplicação)
-seu_email = "novosprojetosbr@gmail.com"
-sua_senha = "zcfbkzhxkdhvixcw"
-
+# Carrega variáveis de ambiente
+load_dotenv()
+FROM_EMAIL = os.getenv("FROM_EMAIL")
+EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 
 # Defina o assunto e o corpo do e-mail
 assunto = 'Prospecção de Veículos - Carrefour'

@@ -24,7 +24,7 @@ df = pd.read_excel(excel_file).fillna('')  # Substitui valores NaN por string va
 # Configurações do servidor SMTP
 servidor = 'smtp.gmail.com'
 porta = 587
-copias = "samantha_campos@carrefour.com; br_torre_controle_crf@carrefour.com; leticia_andrade_reis@carrefour.com "
+copias = "br_torre_controle_crf@carrefour.com; "
 # Função para enviar o e-mail
 def enviar_email(destinatario, copias, transportadora, cnpj):
     # Define o assunto personalizado
