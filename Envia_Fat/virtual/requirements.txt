@@ -1,0 +1,10 @@
+Flask==3.1.0
+PyYAML>=4.2b1
+python-http-client>=3.2.1
+six==1.17.0
+cryptography>=45.0.6
+more-itertools==5.0.0
+pandas==2.2.2
+openpyxl==3.1.5
+python-dotenv==1.0.1
+sendgrid==6.12.5

@@ -1,0 +1,23 @@
+
+Documentação
+# https://github.com/sendgrid/sendgrid-python
+# https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api?_gl=1*yt6506*_gcl_au*MTI1Nzk2NDA0LjE3MzYyNTQ1MzA.*_ga*Mjg5NTE4MTU4LjE3MjA2MzM1MDE.*_ga_8W5LR442LD*MTc0MTI2Nzc1Ni4yNTEuMS4xNzQxMjY4Mjg4LjAuMC4w
+
+
+
+'''
+✅ O que fazer no SendGrid (para esse remetente funcionar)Opção A — Verify a Single Sender (mais rápida)
+SendGrid → Settings → Sender Authentication
+Clique em Verify a Single Sender
+Cadastre exatamente:
+
+From Email: br_backoffice_transporte_cda@carrefour.com
+(Nome/Endereço conforme padrão interno)
+
+
+O SendGrid envia um e-mail de verificação para essa caixa
+Alguém com acesso precisa clicar no link e confirmar
+
+Depois disso, seu script deve começar a retornar 202.
+
+'''
